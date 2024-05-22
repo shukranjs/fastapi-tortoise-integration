@@ -1,0 +1,20 @@
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore Python cache directories
+__pycache__
+
+# Ignore virtual environment directories
+venv/
+.env
+
+# Ignore poetry cache and virtual environment directories
+.poetry/
+.venv/
+
+# Ignore Docker-related files and directories
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Ignore any other files or directories that are not needed in the Docker image

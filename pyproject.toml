@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "my_fastapi_app"
+version = "0.1.0"
+description = "A FastAPI application"
+authors = ["Shukran <shukranjsp@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.65.3"
+uvicorn = "^0.29.0"
+tortoise-orm = "^0.17.0"
+asyncpg = "^0.29.0"
+pydantic = { version = "^1.8.3", extras = ["dotenv"] }
+python-dotenv = "^0.19.1"
+aerich = "^0.7.2"
+
+[tool.poetry.dev-dependencies]
+# Include development dependencies here, such as pytest, flake8, etc.
+
+
+[tool.aerich]
+tortoise_orm = "config.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
