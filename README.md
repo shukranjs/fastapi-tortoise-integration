@@ -18,8 +18,6 @@ Tortoise ORM is a robust tool for working with databases in Python, especially i
 
 To run the application locally, follow these steps:
 
-1. Clone the repository to your local machine:
-
    ```bash
    https://github.com/shukranjs/fastapi-tortoise-integration.git
    cd fastapi-tortoise-integration
